@@ -1,0 +1,33 @@
+Program: 7 Raman and Suman, siblings residing in different cities in Karnataka, each own 
+multiple properties. Raman's assets include a bungalow valued at ₹12,000,000, a 
+plot valued at ₹6,000,000, and a car valued at ₹3,000,000. Meanwhile, Suman owns 
+an apartment valued at ₹11,000,000, a hotel valued at ₹8,000,000, and a car valued 
+at ₹8,000,000. Determine who possesses the greater total wealth between them or 
+whether they are equally wealthier. 
+Code: //Practical 7:Compare Both Person And Find Who Is Rich. 
+#include <stdio.h> 
+void main() { 
+    // Raman's assets 
+    int raman_bungalow = 12000000; 
+    int raman_plot = 6000000; 
+    int raman_car = 3000000; 
+    // Suman's assets 
+    int suman_apartment = 11000000; 
+    int suman_hotel = 8000000; 
+    int suman_car = 8000000; 
+    // Calculate Total Wealth For Raman and Suman 
+    int raman_total_wealth = raman_bungalow + raman_plot + raman_car; 
+    int suman_total_wealth = suman_apartment + suman_hotel + suman_car; 
+    // Print Wealth Of Raman And Suman 
+    printf("Raman's Wealth=%d\n",raman_total_wealth); 
+    printf("Suman's Wealth=%d\n\n",suman_total_wealth); 
+    // Compare Total Wealth 
+    if (raman_total_wealth > suman_total_wealth) { 
+        printf("Raman Is Rich\n\n\n"); 
+    } else if (raman_total_wealth < suman_total_wealth) { 
+printf("Suman Is Rich\n\n\n"); 
+} else { 
+printf("Raman and Suman are equally wealthy.\n\n\n"); 
+}
+printf("24CE032_TARANG\n\n");
+}
